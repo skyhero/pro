@@ -4,11 +4,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class PageController {
+public class TestController {
 
-    @RequestMapping("page")
-    public String toPage(){
-        System.out.println("...");
-        return "page";
+    @RequestMapping("/test")
+    public String test(){
+
+        return "test";
     }
 }
