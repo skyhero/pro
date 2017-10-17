@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+a {
+    width: 28px;
+    height: 28px;
+    line-height: 25px;
+    margin: 0 2px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #E6E8E8;
+    color: #88bbc8;
+}
+a, a:focus, a:hover, a:active {
+    outline: 0 !important;
+    text-decoration: none !important;
+}
+
+ input {
+    width: 30px;
+    height: 18px;
+}

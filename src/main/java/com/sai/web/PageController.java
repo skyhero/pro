@@ -8,7 +8,6 @@ public class PageController {
 
     @RequestMapping("page")
     public String toPage(){
-        System.out.println("...");
         return "page";
     }
 }
